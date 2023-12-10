@@ -16,7 +16,7 @@ import React, { useEffect, useState } from "react";
 import "./Tab1.css";
 
 const Tab1: React.FC = () => {
-  const [contactData, setContactData] = useState([]);
+  const [contactData, setContactData] = useState<object[]>([]);
   const dataURL =
     "https://dev-cs5513-week11-petrutababei.pantheonsite.io/wp-json/twentytwentythree-child/v1/contacts";
   useEffect(() => {
