@@ -1,0 +1,10 @@
+ion-card {
+  display: column;
+  flex-direction: row;
+  align-items: center;
+}
+
+ion-card ion-text {
+  font-size: 1.2em;
+  font-weight: 300;
+}
