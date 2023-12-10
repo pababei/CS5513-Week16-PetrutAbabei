@@ -14,7 +14,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "./Tab3.css";
 
 const Tab3: React.FC = () => {
-  const [servicesData, setServicesData] = useState<object[]>([]);
+  const [servicesData, setServicesData] = useState<any[]>([]);
   const dataURL =
     "https://dev-cs5513-week11-petrutababei.pantheonsite.io/wp-json/twentytwentythree-child/v1/services";
   useEffect(() => {
